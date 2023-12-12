@@ -21,7 +21,6 @@ public class car_controller : MonoBehaviour
             wheel_col[i].GetWorldPose(out pos,out rot);
             wheels[i].position=pos;
             wheels[i].rotation=rot;
-            ![Uploading image.png…]()
 
         }
         if(Input.anyKeyDown) 
